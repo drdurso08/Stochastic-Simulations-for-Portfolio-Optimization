@@ -1,0 +1,10 @@
+streamlit
+tradingview-datafeed
+pandas
+numpy
+matplotlib
+plotly
+scipy
+joblib
+arch
+statsmodels
