@@ -1,4 +1,6 @@
-"IT'S IN ITALIAN. SOMEDAY IT WILL BE TRANSLATED BY A LLM, BUT THAT'S NOT THE DAY"   
+"IT'S IN ITALIAN. SOMEDAY IT WILL BE TRANSLATED BY A LLM, BUT THAT'S NOT THE DAY"  
+
+ONLY APP IS THE VALID VERSION. THE OTHER ipynb FILE IT'S A TOY PRE-ALPHA VERSION
 
 
 # 📊 Dashboard di Ottimizzazione del Portafoglio con Streamlit
@@ -111,4 +113,5 @@ Questa schermata ti permette di calcolare i pesi ottimali del portafoglio per il
 Markowitz produce risultati instabili, quindi o lo ottimizzi dando dei limiti (quello che fa la modalità Heuristic) o il portafoglio fa schifo. Per evitare di usare dati passati, questi servono come elementi per effettuare delle simulazioni dei path dei titoli. Su quelle simulazioni saranno calcolate media e covarianza futura ed effettuata l'ottimizzazione. I risultati in questo caso sono più stabili e l'ottimizzazione da risultati più sparsi. ARIMA_GARCH è più completo ma lento.
 
 I risultati nella fase 2 in expected performance potrebbero sembrare negativi rispetto al Black Littermann ma è normale. Se tu stai dando delle views ti stai distaccando dai modelli stocastici che hai usato per simulare i prezzi, quindi automaticamente verranno risultati diversi. Non prestarci troppa attenzione. 
+
 
